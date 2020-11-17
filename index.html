@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
-	<title>Landed by HTML5 UP</title>
+	<title>Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +20,7 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#one">About</a></li>
-					<li><a href="#two">Project</a></li>
+					<li><a href="#two">Projects</a></li>
 					<li><a href="#four">Skills</a></li>
 					<li><a href="#five">Contact</a></li>
 					<!-- <li><a href="elements.html">Elements</a></li> -->
@@ -36,13 +31,6 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="content">
-				<!-- <div class="loginDesign first"></div>
-				<div class="loginDesign second"></div>
-				<div class="loginDesign third"></div>
-				<div class="loginDesign four"></div>
-				<div class="loginDesign five"></div>
-				<div class="loginDesign six"></div>
-				<div class="loginDesign seven"></div> -->
 				<header>
 					<h2>Hello, I'm Nandhini<br>
 						I'm a Front-end developer.</h2>
@@ -52,40 +40,51 @@
 			<a href="#one" class="goto-next scrolly">Next</a>
 		</section>
 
-		<!-- One -->
-		<section id="one" class="spotlight style1 bottom">
-			<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
-			<div class="content">
+		<!-- One - About -->
+		<section id="one" class="spotlight style1 full">
+			<!-- <span class="image fit main"><img src="images/pic02.jpg" alt="" /></span> -->
+			<video playsinline="" autoplay="" muted="" loop="" poster="" id="bgvid">
+				<source src="https://www.dcfonts.com/wp-content/themes/dc_slider/draw.mp4" type="video/mp4">
+			</video>
+			<div class="content ">
 				<div class="container">
-					<div class="row align-items-center justify-content-center">
-						<div class="col-2">
-
+					<div class="row">
+						<div class="col-4">
+							<span class="white_bottle"><img src="images/white_bottle1.png" alt="" /></span>
 						</div>
-						<div class="col-8">
-							<header class="major">
+						<div class="col-6 col-12-medium col-12-xsmall" style="padding: 7% 0;">
+							<header style="position: relative;text-align: center;">
 								<h2>About</h2>
 							</header>
-							<p>I'm a Front-End Developer for Accenture in Bangalore.
-								I have completed a Bachelor's degree in Computer Science.
-								I have two years of experience in UI development.
-								I am currently working in Angular and Node.js
-								I enjoy turning complex problems into simple, beautiful, and intuitive designs.
-							</p>
+							<div class="bio">
+								<p>
+									I'm a Front-End Developer for Accenture in Bangalore.
+									I chose to pursue web development because I am passionate about human-computer
+									interaction, design, art, mathematics and a variety of different topics that make up
+									beautiful functional websites!
+								</p>
+				
+								<p>
+									Currently I'm developing using Angular, Node.js, Javascript, HTML, and CSS. I'm
+									experimenting with
+									Adobe XD. I plan on learning GraphQL with React and React native
+									next!
+								</p>
+							</div>
 						</div>
-						<div class="col-2">
-
-						</div>
+						<!-- <div class="col-2"></div> -->
 					</div>
 				</div>
 			</div>
+
 			<a href="#two" class="goto-next scrolly">Next</a>
 		</section>
 
-		<!-- Two -->
-		<section id="two" class="spotlight style2 bottom">
+		<!-- Two - Projects -->
+		<section id="two" class="spotlight style1 full">
 			<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 			<div class="content">
-				<header>
+				<header style="position: relative;text-align: center;">
 					<h2>Projects</h2>
 				</header>
 				<div class="container">
@@ -93,26 +92,41 @@
 						<div class="col-4 col-6-medium col-12-xsmall">
 							<div>
 								<a href=" https://chat-app1n.herokuapp.com/" target="_blank">
-									<img src="images/chatapp.PNG" width="250" height="183" alt="Chat App" />
+									<img src="images/chatapp.PNG" width="300" height="183" alt="Chat App" />
 								</a><br>
 							</div>
-							<p>Chat app!</p>
+							<h4>Chat App</h4>
+							<h5 style="text-align: justify;width: 18rem;">
+								Real time chat application with multiple channels that enable instant messaging.
+								Join the channel to start the conversation.
+								<!-- Built with Node.js realtime framework server socket.io -->
+							</h5>
 						</div>
 						<div class="col-4 col-6-medium col-12-xsmall">
 							<div>
 								<a href="https://nandhini130.github.io/snake-game/" target="_blank">
-									<img src="images/snakeGame.jpg" width="250" height="183" alt="Snake Game" />
+									<img src="images/snakeGame.jpg" width="300" height="183" alt="Snake Game" />
 								</a><br>
 							</div>
-							<p>Chat app!</p>
+							<h4>Snake Game</h4>
+							<h5 style="text-align: justify;width: 18rem;">
+								The classic snake game. Move the snake around, eat apples along the way and score as
+								much points as you can!
+								<!-- Javascript library P5.js -->								
+							</h5>
 						</div>
 						<div class="col-4 col-6-medium col-12-xsmall">
 							<div>
 								<a href="https://recipe-app1n.herokuapp.com/" target="_blank">
-									<img src="images/recipe.jpg" width="250" height="183" alt="Recipe" />
+									<img src="images/recipe.jpg" width="300" height="183" alt="Recipe" />
 								</a><br>
 							</div>
-							<p>Chat app!</p>
+							<h4>Recipe Book</h4>
+							<h5 style="text-align: justify;width: 18rem;">
+								Collect the recipes you love in your own custom cookbook.
+								This will help you record and organize all of your favorite recipes.
+								<!-- - Angular -->
+							</h5>
 						</div>
 					</div>
 				</div>
@@ -136,76 +150,88 @@
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section> -->
 
-		<!-- Four -->
-		<section id="four" class="wrapper style1 special fade-up">
-			<div class="container">
-				<header class="major">
-					<h2 style="margin: 0 !important;">Skills</h2>
-				</header>
-				<div class="box alt">
-					<div class="row gtr-uniform">
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major"
-								style="background-image: url('images/angular.png')"></span>
-							<h3>Angular</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/js.png')"></span>
-							<h3>JavaScript</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/node.png')"></span>
-							<h3>Node.js</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major"
-								style="background-image: url('images/express.png')"></span>
-							<h3>Express</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/html.png')"></span>
-							<h3>HTML</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/git.png')"></span>
-							<h3>Git</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/bs.png')"></span>
-							<h3>Bootstrap</h3>
-						</section>
-						<section class="col-3 col-4-medium col-12-xsmall">
-							<span class="icon solid alt major" style="background-image: url('images/css.png')"></span>
-							<h3>CSS</h3>
-						</section>
+		<!-- Four - Skills  -->
+		<section id="four" class="spotlight full wrapper style1 special fade-up">
+			<div class="content">
+				<div class="container">
+					<header style="position: relative;text-align: center;">
+						<h2>Skills</h2>
+					</header>
+					<div class="box alt">
+						<div class="row gtr-uniform">
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major"
+									style="background-image: url('images/angular.png')"></span>
+								<h3>Angular</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/js.png')"></span>
+								<h3>JavaScript</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/node.png')"></span>
+								<h3>Node.js</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major"
+									style="background-image: url('images/express.png')"></span>
+								<h3>Express</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/html.png')"></span>
+								<h3>HTML</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/git.png')"></span>
+								<h3>Git</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/bs.png')"></span>
+								<h3>Bootstrap</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/css.png')"></span>
+								<h3>CSS</h3>
+							</section>
+							
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/html.png')"></span>
+								<h3>HTML</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/git.png')"></span>
+								<h3>Git</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/bs.png')"></span>
+								<h3>Bootstrap</h3>
+							</section>
+							<section class="col-3 col-4-medium col-6-xsmall">
+								<span class="icon solid alt major" style="background-image: url('images/css.png')"></span>
+								<h3>CSS</h3>
+							</section>
 
+						</div>
 					</div>
+					<footer class="major">
+						<!-- <ul class="actions special">
+									<li><a href="#" class="button">Magna sed feugiat</a></li>
+								</ul> -->
+					</footer>
 				</div>
-				<footer class="major">
-					<!-- <ul class="actions special">
-								<li><a href="#" class="button">Magna sed feugiat</a></li>
-							</ul> -->
-				</footer>
 			</div>
 		</section>
 
-		<!-- Five -->
+		<!-- Five - Contact Section -->
 		<section id="five" class="wrapper style2 special fade">
 			<div class="container">
 				<header>
 					<h2>Contact</h2>
 				</header>
-				<!-- <form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
-							</div>
-						</form> -->
-				<form action="https://formspree.io/f/moqpwgwp" method="POST" class="cta">
+				<form id="contact-form" class="cta">
 					<input type="text" name="senderName" id="name" required placeholder="Name " /><br>
 					<input type="email" name="_replyto" id="email" required placeholder="Your Email Address" /><br>
 					<textarea placeholder="Your Message" type="text" required name="message"></textarea><br>
-					<!-- <button type="submit" class="button fit primary">Submit</button> -->
 					<input type="submit" value="Get Started" class="fit primary" />
 
 				</form>
